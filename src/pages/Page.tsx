@@ -55,13 +55,13 @@ return (
           <IonTitle>{name} 2025</IonTitle>
         </IonToolbar>
       </IonHeader>
-
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <p>hello</p>
         {cardContent.map((item, index) => (
           <IonCard key={index}>
             <img
